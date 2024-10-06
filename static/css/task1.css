@@ -1,0 +1,70 @@
+.custom-form {
+          margin: 20px auto;
+        }
+.navbar {
+    width: 100%;
+    background-color: #007bff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.navbar-content span {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.navbar-icons {
+    position: absolute;
+    right: 0px;
+    display: flex;
+    gap: 25px;
+}
+
+.icon-btn {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-btn i {
+    margin: 0;
+    padding: 0;
+}
+.main_navigator {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+.navigator {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+.disabled {
+    pointer-events: none;
+    color: #ccc;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-content span {
+        font-size: 1rem;
+    }
+
+    .icon-btn i {
+        font-size: 1.2rem;
+    }
+}
